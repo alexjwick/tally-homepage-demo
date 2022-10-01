@@ -1,0 +1,154 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Roboto, serif;
+}
+
+.content {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.content p {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+h5 {
+    font-size: 1.75rem;
+}
+
+section {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    background-color: #C5E2FF;
+    height: 120px;
+    position: fixed;
+    z-index: 10;
+}
+
+header .content {
+    height: 100%;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+header #logo {
+    width: auto;
+    height: 75%;
+}
+
+header #logo img {
+    width: 100%;
+    height: 100%;
+}
+
+header #login {
+    font-size: 1.3rem;
+}
+
+/* BANNER */
+
+#banner {
+    position: relative;
+    top: 120px;
+    background-color: pink;
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#banner #background-video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    filter: brightness(0.5);
+    z-index: auto;
+    transform: translateY(-50%);
+}
+
+#banner p {
+    font-size: 3.25rem;
+    color: white;
+    position: absolute;
+    padding: 0 10rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#banner #rebuilding-communities {
+    top: 25%;
+}
+
+#banner #reducing-waste {
+    top: 45%;
+}
+
+#banner #saving-lives {
+    top: 65%;
+}
+
+/* MISSION */
+
+#our-mission {
+    background-color: #ffffff;
+    color: black;
+    position: relative;
+    top: 120px;
+    height: 400px;
+    width: 100%;
+}
+
+/* WHO WE ARE */
+
+#who-we-are {
+    background-color: blue;
+    color: white;
+    position: relative;
+    top: 120px;
+    height: 400px;
+    width: 100%;
+}
+
+/* PARTNERS */
+
+#our-partners {
+    background-color: #ffffff;
+    color: black;
+    position: relative;
+    top: 120px;
+    height: 400px;
+    width: 100%;
+}
+
+#our-partners #partners {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#our-partners #partners img {
+    width: 20%;
+}
